@@ -1,0 +1,12 @@
+<!DOCTYPE>
+<html>
+	<body>
+		{% for e in entries %}
+		<p><b> {{ e.name }} </b></p>
+		<p> Average food quality: {{ e.food_average }} </p>
+		<p> Average shirt quality: {{ e.shirt_average }} </p>
+		<p> Total ratings: {{ e.total }} </p>
+		<br />
+		{% endfor %}
+	</body>
+</html>
